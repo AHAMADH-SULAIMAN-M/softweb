@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lovely Moon — Contact</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="wrap inner">
+            <div class="brand">Lovely Moon</div>
+            <nav class="links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="administration.html">Administration</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="min-height:48vh">
+        <img src="assets/images/cont.jpeg" alt="Contact hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <span class="badge">We'd love to hear from you</span>
+            <h1>Contact & Reservations</h1>
+            <p class="subtitle">Questions, events, or bookings — drop us a line.</p>
+        </div>
+    </section>
+
+    <main class="wrap section">
+        <div class="grid3">
+            <div class="card">
+                <h3>Address</h3>
+                <p class="small">Lovely Moon, 21 MG Road, Indiranagar<br>Bengaluru, Karnataka 560038, India</p>
+                <h3>Hours</h3>
+                <p class="small">Mon–Sun: 11:30–22:30</p>
+            </div>
+            <div class="card">
+                <h3>Contact</h3>
+                <p class="small"><strong>Phone:</strong> <a href="tel:+918045001234">+91 80450 01234</a></p>
+                <p class="small"><strong>Email:</strong> <a
+                        href="mailto:reservations@lovelymoon.example">reservations@lovelymoon.example</a></p>
+            </div>
+            <div class="card">
+                <h3>Social</h3>
+                <p class="small">Instagram • Facebook • Maps</p>
+                <p class="small">Follow for specials and events.</p>
+            </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+            <h3 style="margin:0 0 8px">Send us a message</h3>
+            <form onsubmit="event.preventDefault(); alert('Thanks! We will get back to you soon.');">
+                <div class="grid3" style="grid-template-columns:1fr 1fr 1fr;gap:12px">
+                    <p><input placeholder="Name"
+                            style="width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:var(--ink)">
+                    </p>
+                    <p><input placeholder="Email" type="email"
+                            style="width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:var(--ink)">
+                    </p>
+                    <p><input placeholder="Phone"
+                            style="width:100%;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:var(--ink)">
+                    </p>
+                </div>
+                <p><textarea placeholder="Message"
+                        style="width:100%;min-height:140px;padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:var(--ink)"></textarea>
+                </p>
+                <p><button class="btn primary" type="submit">Send</button></p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">© 2025 Lovely Moon — Designed by <strong>AHAMADH SULAIMAN M</strong></div>
+    </footer>
+</body>
+
+</html>
